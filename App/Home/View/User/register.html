@@ -1,0 +1,168 @@
+<div class="block box">
+    <div class="blank"></div>
+    <div id="ur_here">
+        当前位置: <a href="#">首页</a> <code>&gt;</code> 用户注册
+    </div>
+</div>
+<div class="blank"></div>
+
+<div class="block box">
+
+    <div class="usBox">
+        <div class="usBox_2 clearfix">
+            <div class="logtitle3"></div>
+            <form id="signupForm" name="signupForm" action="" method="post">
+                <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
+                    <tbody>
+                    <tr>
+                        <td style="width:13%; text-align: right;"><label for="User_username" class="required">用户名
+                            <span class="required">*</span></label>
+                        </td>
+
+                        <td style="width:87%;">
+                            <input class="inputBg" size="25" name="user_name" id="user_name" type="text" value=""/>
+                            <!-- <span style="color:red;">用户名已经存在</span> -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <label for="User_password" class="required">密码 <span class="required">*</span></label>
+                        </td>
+
+                        <td>
+                            <input class="inputBg" size="25" name="user_pwd" id="user_pwd" type="password" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="User_password2">密码确认<span class="required">*</span></label></td>
+                        <td>
+                            <input class="inputBg" size="25" name="user_pwd2" id="user_pwd2" type="password"/>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="User_user_email">邮箱<span class="required">*</span></label></td>
+                        <td>
+                            <input class="inputBg" size="25" name="user_email" id="user_email" type="text" value=""/>
+                        </td>
+                    </tr>
+                    <!--<tr>-->
+
+                        <!--<td align="right"><label for="User_user_qq">qq号码</label></td>-->
+                        <!--<td>-->
+                            <!--<input class="inputBg" size="25" name="user_qq" id="user_qq" type="text" value=""/>-->
+                        <!--</td>-->
+                    <!--</tr>-->
+                    <tr>
+                        <td align="right"><label for="User_user_tel">手机</label></td>
+                        <td>
+                            <input class="inputBg" size="25" name="user_phone" id="user_phone" type="text" value=""/>
+                            <input type="button" id="phone_code_btn" onclick="send_msg()" value="点击获取验证码">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="User_user_tel">输入手机验证码</label></td>
+                        <td>
+                            <input class="inputBg" size="25" name="phone_code" id="phone_code" type="text" value=""/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!--textArea($model,$attribute,$htmlOptions=array())-->
+                        <td align="right"><label for="User_user_introduce">验证码</label></td>
+                        <td>
+                            <input class="inputBg" size="25" name="captcha" id="captcha" type="text" value=""/>
+                            <img style="width: 80px;height: 30px" onclick="this.src='__CONTROLLER__/autoCode/t/'+Math.random();" src='__CONTROLLER__/autoCode'/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+
+                        <td align="left">
+                            <input name="Submit" value="" class="us_Submit_reg" type="submit"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="__HJS__/jquery-1.8.2.min.js"></script>
+<script src="__HJS__/jquery.validate.js"></script>
+<script type="text/javascript">
+    //点击按钮发送短信验证、并倒计时
+    var time = 10;
+    function send_msg() {
+        //发送手机验证码
+        if (time==10) {
+            phonenum = $('#user_phone').val();
+//            alert($phonenum);
+            $.post('{:U("index/phoneCode")}','phonenum='+phonenum,function (msg) {
+//                console.log(msg);
+                if (msg.status==0){
+                    alert(msg.info);
+                }
+            },'json');
+        }
+        //实现倒计时
+        if(time==0){
+            //按钮可点击
+            $('#phone_code_btn').attr('disabled',false);
+            $('#phone_code_btn').val('点击获取验证码');
+            time=10;
+        }else {
+            time--;
+            $('#phone_code_btn').attr('disabled',true);
+            $('#phone_code_btn').val('重新获取验证码（'+time+'）');
+            setTimeout(send_msg,1000);
+
+        }
+    }
+
+    /**
+     * js前台输入验证
+     */
+    $("#signupForm").validate({
+        rules: {
+            user_name: {
+                required: true,
+                minlength: 5
+            },
+            user_pwd: {
+                required: true,
+                minlength: 5
+            },
+            user_pwd2: {
+                required: true,
+                minlength: 5,
+                equalTo: "#user_pwd"
+            },
+            user_email: {
+                required: true,
+                email: true
+            },
+        },
+        messages: {
+            user_name: {
+                required: "请输入用户名",
+                minlength: "用户名长度必须不小于5个字符"
+            },
+            user_pwd: {
+                required: "请输入密码",
+                minlength: "密码长度必须不小于5个字符"
+            },
+            user_pwd2: {
+                required: "请再次输入密码",
+                minlength: "密码长度必须不小于5个字符",
+                equalTo: "两次密码输入不一致"
+            },
+            user_email: "邮箱格式必须正确",
+        }
+    });
+</script>

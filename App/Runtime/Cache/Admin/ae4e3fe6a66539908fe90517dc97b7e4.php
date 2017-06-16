@@ -1,0 +1,129 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ECSHOP 管理中心 - 添加角色 </title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="/Public/Admin/styles/general.css" rel="stylesheet" type="text/css"/>
+    <link href="/Public/Admin/styles/main.css" rel="stylesheet" type="text/css"/>
+    <script src="/Public/Js/jquery.js"></script>
+</head>
+<body>
+
+<h1>
+    <span class="action-span"><a href="/Admin/Role/lst">角色分类</a></span>
+    <span class="action-span1"><a href="#">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 添加角色类型 </span>
+    <div style="clear:both"></div>
+</h1>
+
+<div class="main-div">
+    <form action="/Admin/Role/add" method="post" name="theForm" enctype="multipart/form-data">
+        <table width="100%" id="general-table">
+            <tr>
+                <td class="label">角色名称:</td>
+                <td>
+                    <input type='text' name='role_name' maxlength="20" value='' size='27'/>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">分配权限:</td>
+                <td id="rolecheck">
+                    <input class="checkedall" type="checkbox" name="" value=""/><font color="#00008b">全选/全不选</font></br>
+
+                    <?php if(is_array($privdata)): foreach($privdata as $key=>$v): ?><input class="checkpart" data-id="<?php echo ($v['id']); ?>" type="checkbox" name="priv_id[]" value=value="<?php echo ($v['id']); ?>"><?php echo ($v['priv_name']); ?></br>
+                        <?php if(is_array($v[_child])): foreach($v[_child] as $key=>$vv): ?><input class="checked_<?php echo ($v['id']); ?>" type="checkbox" name="priv_id[]" value="<?php echo ($vv['id']); ?>"/><?php echo (str_repeat('--',$vv['level']*2)); echo ($vv['priv_name']); ?></br><?php endforeach; endif; endforeach; endif; ?>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value=" 重置 "/><input type="submit" value=" 确定 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div id="footer">
+    共执行 3 个查询，用时 0.021687 秒，Gzip 已禁用，内存占用 2.081 MB<br/>
+    版权所有 &copy; 2005-2010 上海商派网络科技有限公司，并保留所有权利。
+</div>
+<script>
+    $(function () {
+        //全选、全不选
+        $('.checkedall').click(function () {
+            //全选、全部选
+            if ($(this).is(':checked')) {
+                $(this).siblings(':checkbox').each(function () {
+                    if (!$(this).is(':checked')) {
+                        $(this).attr('checked', true);
+                    }
+                })
+            } else {
+                $(this).siblings(':checkbox').each(function () {
+                    if ($(this).is(':checked')) {
+                        $(this).attr('checked', false)
+                    }
+                })
+            }
+        })
+
+
+
+        //点击顶级，子集全选或取消
+        $('.checkpart').live('click', function () {
+            var id = $(this).attr('data-id');
+            if ($(this).is(':checked')) {
+                $('.checked_' + id).each(function () {
+                    $(this).attr('checked', true);
+                })
+            } else {
+                $('.checked_' + id).each(function () {
+                    $(this).attr('checked', false);
+                })
+            }
+        })
+
+        //子集有任一个选择，顶级都选中
+        $('#rolecheck :checkbox').live('click', function () {
+
+            str = $(this).attr('class');
+            //获取当前父级id
+            id = str.substr(str.indexOf('_') + 1, str.length);
+            var n = 0;
+            $('.checked_' + id).each(function () {
+                if ($('.checked_' + id).is(':checked')) {
+                    n++;
+                }
+            })
+            if (n > 0) {
+                $('.checkpart[data-id=' + id + ']').attr('checked', true);
+            } else {
+                $('.checkpart[data-id=' + id + ']').attr('checked', false);
+            }
+        })
+
+        //所有的都选中则全选选中，当所有的都取消全选取消
+        $('#rolecheck input[type=checkbox]').live('click', function () {
+            var j = 0;
+            var i = 0;
+            $('.checkedall').siblings(':checkbox').each(function () {
+                j++;
+                if ($(this).is(':checked')) {
+                    i++;
+                }
+//                console.log(i);
+                if (i == j) {
+                    $('.checkedall').attr('checked', true);
+                } else {
+                    $('.checkedall').attr('checked', false);
+                }
+            })
+        })
+
+
+    })
+</script>
+
+</body>
+</html>

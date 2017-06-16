@@ -1,0 +1,331 @@
+<script src="__HJS__/jquery-1.8.2.min.js"></script>
+<script src="__HJS__/jR3DCarousel.min.js"></script>
+<div class="block box">
+    <div class="blank"></div>
+    <div id="ur_here">
+        当前位置: <a href="{:U('index/index')}">首页</a> <code>&gt;</code>
+    </div>
+</div>
+<div class="blank"></div>
+<div class="block box">
+
+    <div class="block clearfix">
+        <div class="AreaL">
+            <h3><span>商品分类</span></h3>
+            <div id="category_tree" class="box_1">
+
+                <!-- 侧边栏数据-->
+                <foreach name="lanmudata" item="val">
+                    <if condition="$val['parent_id']==0">
+                        <dl>
+                            <dt><a target="_blank" href="{:U('category','cat_id='.$val['id'])}">{$val.cat_name}</a></dt>
+                            <foreach name="lanmudata" item="v">
+                                <if condition="$val['id'] eq $v['parent_id']">
+                                    <dd style="display: inline-block">
+                                        <a target="_blank" href="{:U('category','cat_id='.$v['id'])}">{$v.cat_name}</a>
+                                    </dd>
+                                </if>
+                            </foreach>
+                        </dl>
+                    </if>
+                </foreach>
+
+            </div>
+            <div class="blank"></div>
+            <div class="box">
+                <h3><span>销售排行榜</span></h3>
+                <div class="box_1">
+                    <div class="top10List clearfix">
+                        <foreach name="goodssales" key="key" item="gg">
+                            <ul class="clearfix">
+                                <img <if condition="$key eq 0"> src="__IMG__/top_1.gif" <elseif condition="$key eq 1"/>src="__IMG__/top_2.gif"<elseif condition="$key eq 2"/>src="__IMG__/top_3.gif"</if> class="iteration">
+                                <if condition="$key eq 0"> <li class="topimg">
+                                    <a href="#"><img src="/Public/Uploads/{$gg.goods_thumb}" alt="" class="samllimg"></a>
+                                </li> <elseif condition="$key eq 1"/><li class="topimg">
+                                    <a href="#"><img src="/Public/Uploads/{$gg.goods_thumb}" alt="" class="samllimg"></a>
+                                </li><elseif condition="$key eq 2"/><li class="topimg">
+                                    <a href="#"><img src="/Public/Uploads/{$gg.goods_thumb}" alt="" class="samllimg"></a>
+                                </li></if>
+                                
+                                <li class="iteration1">
+                                    <a href="#" title="">{$gg.goods_name}</a><br/>
+                                    售价：<font class="f1">￥{$gg.shop_price}元</font><br/>
+                                </li>
+                            </ul>
+                        </foreach>
+                        <!--<ul class="clearfix">-->
+                        <!--<img src="__IMG__/top_2.gif" class="iteration">-->
+                        <!--<li class="topimg">-->
+                        <!--<a href="#"><img src="__IMG__/24_thumb_G_1241971981429.jpg" alt="" class="samllimg"></a>-->
+                        <!--</li>-->
+
+                        <!--<li class="iteration1">-->
+                        <!--<a href="#" title="">P806</a><br/>-->
+                        <!--本店售价：<font class="f1">￥2000元</font><br/>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--<ul class="clearfix">-->
+                        <!--<img src="__IMG__/top_3.gif" class="iteration">-->
+                        <!--<li class="topimg">-->
+                        <!--<a href="#"><img src="__IMG__/12_thumb_G_1241965978410.jpg" alt="" class="samllimg"></a>-->
+                        <!--</li>-->
+
+                        <!--<li class="iteration1">-->
+                        <!--<a href="#" title="">摩托罗拉A81...</a><br/>-->
+                        <!--本店售价：<font class="f1">￥983元</font><br/>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--<ul class="clearfix">-->
+                        <!--<img src="__IMG__/top_4.gif" class="iteration">-->
+
+                        <!--<li>-->
+                        <!--<a href="#" title="">诺基亚E66</a><br/>-->
+                        <!--本店售价：<font class="f1">￥2298元</font><br/>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--<ul class="clearfix">-->
+                        <!--<img src="__IMG__/top_5.gif" class="iteration">-->
+
+                        <!--<li>-->
+                        <!--<a href="#" title="">多普达Touc...</a><br/>-->
+                        <!--本店售价：<font class="f1">￥5999元</font><br/>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--<ul class="clearfix">-->
+                        <!--<img src="__IMG__/top_6.gif" class="iteration">-->
+
+                        <!--<li>-->
+                        <!--<a href="#" title="">三星BC01</a><br/>-->
+                        <!--本店售价：<font class="f1">￥280元</font><br/>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--<ul class="clearfix">-->
+                        <!--<img src="__IMG__/top_7.gif" class="iteration">-->
+
+                        <!--<li>-->
+                        <!--<a href="#" title="">飞利浦9@9v</a><br/>-->
+                        <!--本店售价：<font class="f1">￥399元</font><br/>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+            </div>
+            <div class="blank5"></div>
+            <div class="box"><h3><span>品牌专区</span></h3>
+                <div class="box_1">
+                    <div class=" brands clearfix">
+                        <a href="#"><img src="__IMG__/1240803062307572427.gif" alt="诺基亚 (7)"></a>
+                        <a href="#"><img src="__IMG__/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
+                        <a href="#"><img src="__IMG__/1240803144788047486.gif" alt="多普达 (1)"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="AreaM">
+            <div class="box clearfix">
+                <div id="focus" class="jR3DCarouselGallery">
+                    <!--<img src="__IMG__/111.jpg" width="515" height="160" alt=""/>-->
+                </div>
+            </div>
+            <div class="blank"></div>
+
+            <div class="itemTit" id="itemHot">
+                <div class="tit">热卖商品</div>
+                <h2><a href="#">全部商品</a></h2>
+                <h2 class="h2bg"><a href="#">GSM手机</a></h2>
+                <h2 class="h2bg"><a href="#">双模手机</a></h2>
+                <h2 class="h2bg"><a href="#">充值卡</a></h2>
+                <h2 class="h2bg"><a href="#">移动手机充值卡</a></h2>
+            </div>
+            <div id="show_hot_area" class="clearfix">
+                <foreach name="hotdata" item="v1">
+                    <div class="goodsItem">
+                        <a target="_blank" href="{:U('index/detail','id='.$v1['id'])}"><img src="/Public/Uploads/{$v1.goods_thumb}" alt="{$v1.goods_name}"
+                                                                                            class="goodsimg"></a><br/>
+                        <p class="f1"><a target="_blank" href="{:U('index/detail','id='.$v1['id'])}" title="{$v1.goods_name}">{$v1.goods_name}</a></p>
+                        <font class="market">￥{$v1.market_price}元</font><br/>
+                        <font class="f1">
+                            ￥{$v1.shop_price}元 </font>
+                    </div>
+                </foreach>
+
+            </div>
+            <div class="blank"></div>
+
+            <div class="itemTit" id="itemBest">
+
+                <div class="tit">精品推荐</div>
+                <h2><a href="#">全部商品</a></h2>
+                <h2 class="h2bg"><a href="#">GSM手机</a></h2>
+                <h2 class="h2bg"><a href="#">双模手机</a></h2>
+                <h2 class="h2bg"><a href="#">充值卡</a></h2>
+                <h2 class="h2bg"><a href="#">联通手机充值卡</a></h2>
+            </div>
+            <div id="show_best_area" class="clearfix">
+
+                <foreach name="bestdata" item="v2">
+                    <div class="goodsItem">
+                        <a href="{:U('index/detail','id='.$v2['id'])}"><img src="/Public/Uploads/{$v2.goods_thumb}" alt="{$v2.goods_name}" class="goodsimg"></a><br/>
+                        <p class="f1"><a href="{:U('index/detail','id='.$v2['id'])}" title="{$v2.goods_name}">{$v2.goods_name}</a></p>
+                        <font class="market">￥{$v2.market_price}元</font><br/>
+                        <font class="f1">
+                            ￥{$v2.shop_price}元 </font>
+                    </div>
+                </foreach>
+
+            </div>
+            <div class="blank"></div>
+
+            <div class="itemTit" id="itemNew">
+                <div class="tit">新品上架</div>
+                <h2><a href="#">全部商品</a></h2>
+                <h2 class="h2bg"><a href="#">GSM手机</a></h2>
+                <h2 class="h2bg"><a href="#">双模手机</a></h2>
+                <h2 class="h2bg"><a href="#">充值卡</a></h2>
+                <h2 class="h2bg"><a href="#">联通手机充值卡</a></h2>
+            </div>
+            <div id="show_new_area" class="clearfix">
+
+                <foreach name="newdata" item="v3">
+                    <div class="goodsItem">
+                        <a href="{:U('index/detail','id='.$v3['id'])}"><img src="/Public/Uploads/{$v3.goods_thumb}" alt="{$v3.goods_name}" class="goodsimg"></a><br/>
+                        <p class="f1"><a href="{:U('index/detail','id='.$v3['id'])}" title="{$v3.goods_name}">{$v3.goods_name}</a></p>
+                        <font class="market">￥{$v3.market_price}元</font><br/>
+                        <font class="f1">
+                            ￥{$v3.shop_price}元 </font>
+                    </div>
+                </foreach>
+
+
+            </div>
+            <div class="blank"></div>
+
+        </div>
+
+
+        <div class="AreaL" style="float: right;">
+
+            <h3><span>新闻快讯</span></h3>
+            <div class="NewsList tc box_1" style="border-top: medium none;">
+                <ul>
+                    <li>
+                        <a href="#" title="三星SGHU308说明书下载">三星SGHU308说明书下载</a>
+                    </li>
+                    <li>
+                        <a href="#" title="手机游戏下载">手机游戏下载</a>
+                    </li>
+                    <li>
+                        <a href="#" title="促销诺基亚N96">促销诺基亚N96</a>
+                    </li>
+                    <li>
+                        <a href="#" title="诺基亚5320 促销">诺基亚5320 促销</a>
+                    </li>
+                    <li>
+                        <a href="#" title="3G知识普及">3G知识普及</a>
+                    </li>
+                    <li>
+                        <a href="#" title="诺基亚6681手机广告欣赏">诺基亚6681手机广告欣赏</a>
+                    </li>
+                    <li>
+                        <a href="#" title="飞利浦9@9促销">飞利浦9@9促销</a>
+                    </li>
+                    <li>
+                        <a href="#" title="800万像素超强拍照机 LG Viewty Smart再曝光">800万像素超强拍照机 LG V...</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="blank"></div>
+            <div class="box">
+                <h3><span>订单查询</span></h3>
+                <div class="box_1">
+                    <div class="boxCenterList">
+                        <form name="ecsOrderQuery">
+                            <input name="order_sn" class="inputBg" type="text"/><br/>
+                            <div class="blank5"></div>
+                            <input value="查询该订单号" class="bnt_blue_2" type="button"/>
+                        </form>
+                        <div id="ECS_ORDER_QUERY" style="margin-top: 8px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blank"></div>
+            <div class="blank"></div>
+            <div class="box">
+                <h3><span>邮件订阅</span></h3>
+                <div class="box_1">
+
+                    <div class="boxCenterList RelaArticle">
+                        <input id="user_email" class="inputBg" type="text"/><br/>
+                        <div class="blank5"></div>
+                        <input class="bnt_blue" value="订阅" type="button"/>
+                        <input class="bnt_bonus" value="退订" type="button"/>
+                    </div>
+                </div>
+            </div>
+            <div class="blank"></div>
+            <div class="box">
+                <h3>
+                    <span><a href=""></a></span>
+                    <a href="">更多</a>
+                </h3>
+                <div class="box_1">
+
+                    <div class="boxCenterList RelaArticle">
+                    </div>
+                </div>
+            </div>
+            <div class="blank5"></div>
+            <style type="text/css">
+                .boxCenterList form {
+                    display: inline;
+                }
+
+                .boxCenterList form a {
+                    color: #404040;
+                    text-decoration: underline;
+                }
+            </style>
+            <div class="box">
+                <h3><span>发货查询</span></h3>
+                <div class="box_1">
+                    <div class="boxCenterList">
+                        订单号 2009061909851<br/>
+                        发货单 232421
+                        <div class="blank"></div>
+                        订单号 2009052224892<br/>
+                        发货单 1123344
+                        <div class="blank"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="blank"></div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".jR3DCarouselGallery").jR3DCarousel({
+        "width": 515,
+        "height": 160,
+        "slideLayout": "fill",
+        "animation": "slide3D",
+        "animationCurve": "ease",
+        "animationDuration": 700,
+        "animationInterval": 1000,
+        "autoplay": false,
+        "navigation": "circles",
+        "slides": [
+            {
+                "src": "__IMG__/111.jpg"
+            },
+            {
+                "src": "__IMG__/222.jpg"
+            },
+            {
+                "src": "__IMG__/333.jpg"
+            },
+        ]
+    })
+</script>

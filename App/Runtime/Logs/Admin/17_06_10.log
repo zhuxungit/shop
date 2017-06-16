@@ -1,0 +1,2045 @@
+[ 2017-06-10T08:28:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-06-10T08:28:35+08:00 ] 127.0.0.1 /Admin/Login/autoCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-06-10T08:28:59+08:00 ] 127.0.0.1 /Admin/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `it_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-06-10T08:29:00+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-06-10T08:29:00+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-06-10T08:29:02+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0149s ]
+SQL: select * from it_privilege where parent_id=0 and is_show=1 [ RunTime:0.0335s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 3 order by id desc [ RunTime:0.0006s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 1 order by id desc [ RunTime:0.0007s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 2 order by id desc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-06-10T08:29:02+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-06-10T08:29:02+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-06-10T08:29:05+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0204s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-06-10T08:29:13+08:00 ] 127.0.0.1 /admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:2.5515s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_type` [ RunTime:0.3322s ]
+SQL: SELECT * FROM `it_type`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: d G:\workstudy\shshop\App\Runtime\Cache\Admin\c4eb750b05a3ec9b1c52c27480c12d23.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2017-06-10T20:25:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-06-10T20:25:44+08:00 ] 127.0.0.1 /Admin/Login/autoCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-06-10T21:26:58+08:00 ] 127.0.0.1 /Admin/Category/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined index: admin_id G:\workstudy\shshop\App\Admin\Controller\MyController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-06-10T21:27:00+08:00 ] 127.0.0.1 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-06-10T21:27:01+08:00 ] 127.0.0.1 /Admin/Login/autoCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-06-10T21:27:12+08:00 ] 127.0.0.1 /Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0920s ]
+SQL: SELECT * FROM `it_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+
+[ 2017-06-10T21:27:18+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.1612047636252283
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2017-06-10T21:27:19+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.761474372069963
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-06-10T21:27:26+08:00 ] 127.0.0.1 /Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `it_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-06-10T21:27:29+08:00 ] 127.0.0.1 /Admin/Login/autoCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-06-10T21:27:42+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.7446414142007454
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-06-10T21:27:43+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.21225851893908332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-06-10T21:27:50+08:00 ] 127.0.0.1 /Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-06-10T21:27:58+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.777785515203046
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-06-10T21:27:59+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.20996024894728427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-06-10T21:28:00+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.06262173061401621
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-06-10T21:28:00+08:00 ] 127.0.0.1 /Admin/Login/autoCode/0.7028050765821219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-06-10T21:28:12+08:00 ] 127.0.0.1 /Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `it_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+
+[ 2017-06-10T21:28:13+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-06-10T21:28:13+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-06-10T21:28:14+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-06-10T21:28:14+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-06-10T21:28:16+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0301s ]
+SQL: select * from it_privilege where parent_id=0 and is_show=1 [ RunTime:0.0415s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 3 order by id desc [ RunTime:0.0004s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 1 order by id desc [ RunTime:0.0003s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 2 order by id desc [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-06-10T21:28:18+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0216s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0283s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-06-10T21:28:26+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0037s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=3 )  [ RunTime:0.0477s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=3 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-06-10T21:28:35+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-06-10T21:28:44+08:00 ] 127.0.0.1 /Admin/Goods/update/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_type` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `it_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods_album` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=3 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-06-10T21:28:55+08:00 ] 127.0.0.1 /Admin/Goods/showattr.html?type_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `it_attribute` WHERE ( type_id=1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-06-10T21:29:09+08:00 ] 127.0.0.1 /Admin/Goods/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 173 行.
+SQL: UPDATE `it_goods` SET `goods_name`='苹果P8',`goods_sn`='SN_1495368353592182A1284FC',`cat_id`='6',`shop_price`='12.00',`market_price`='1234.00',`goods_desc`='&lt;p&gt;好的商品，不需要解释&lt;/p&gt;',`goods_number`='3453',`is_new`='1',`is_hot`='1',`is_sale`='1' WHERE `id` = 3 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0039s ]
+SQL: DELETE FROM `it_goods_attr` WHERE ( goods_id=3 ) [ RunTime:0.0004s ]
+SQL: INSERT INTO `it_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('3','3','黑') [ RunTime:0.0002s ]
+SQL: INSERT INTO `it_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('3','3','灰') [ RunTime:0.0001s ]
+SQL: INSERT INTO `it_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('3','3','白') [ RunTime:0.0001s ]
+SQL: INSERT INTO `it_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('3','4','国产') [ RunTime:0.0001s ]
+SQL: INSERT INTO `it_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('3','4','进口') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `it_goods_album` [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+
+[ 2017-06-10T21:29:11+08:00 ] 127.0.0.1 /Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-06-10T21:29:14+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0047s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=3 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=3 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-06-10T21:29:17+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-06-10T21:29:20+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0204s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0037s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=14 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=14 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-06-10T21:29:24+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-06-10T21:29:27+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=13 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=13 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-06-10T21:29:30+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-06-10T21:29:34+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0045s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=12 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=12 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-06-10T21:29:37+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 224 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 230 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-06-10T21:32:35+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-06-10T21:33:56+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0043s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=3 )  [ RunTime:0.0008s ]
+
+[ 2017-06-10T21:36:13+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-06-10T21:36:13+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-06-10T21:36:15+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0048s ]
+SQL: select * from it_privilege where parent_id=0 and is_show=1 [ RunTime:0.0004s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 3 order by id desc [ RunTime:0.0003s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 1 order by id desc [ RunTime:0.0003s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 2 order by id desc [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-06-10T21:36:16+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-06-10T21:36:16+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-06-10T21:36:18+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0189s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 235 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-06-10T21:36:24+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0042s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=3 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=3 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Undefined variable: pv G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 47 行.
+NOTIC: [8] Undefined variable: pv G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 47 行.
+NOTIC: [8] Undefined variable: pv G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 47 行.
+NOTIC: [8] Undefined variable: pv G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 47 行.
+NOTIC: [8] Undefined variable: pv G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 47 行.
+NOTIC: [8] Undefined variable: pv G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-06-10T21:37:14+08:00 ] 127.0.0.1 /Admin/Goods/product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id = 3 )  [ RunTime:0.0003s ]
+SQL: INSERT INTO `it_product` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('3','58,55','45') [ RunTime:0.0003s ]
+SQL: INSERT INTO `it_product` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('3','58,54','67') [ RunTime:0.0002s ]
+SQL: INSERT INTO `it_product` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('3','57,56','12') [ RunTime:0.0002s ]
+SQL: INSERT INTO `it_product` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('3','57,55','67') [ RunTime:0.0001s ]
+SQL: INSERT INTO `it_product` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('3','57,54','67') [ RunTime:0.0001s ]
+SQL: INSERT INTO `it_product` (`goods_id`,`goods_attr_id`,`goods_number`) VALUES ('3','58,56','23') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0043s ]
+SQL: UPDATE `it_goods` SET `goods_number`='281' WHERE ( id = 3 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+
+[ 2017-06-10T21:37:16+08:00 ] 127.0.0.1 /Admin/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 235 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-06-10T21:37:21+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0038s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=3 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=3 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-06-10T22:05:07+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0163s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 235 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-06-10T22:05:18+08:00 ] 127.0.0.1 /Admin/Goods/update/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_type` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `it_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods_album` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=3 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-06-10T22:05:23+08:00 ] 127.0.0.1 /Admin/Goods/showattr.html?type_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `it_attribute` WHERE ( type_id=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-06-10T22:54:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-06-10T22:54:26+08:00 ] 127.0.0.1 /Admin/Login/autoCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-06-10T22:54:41+08:00 ] 127.0.0.1 /Admin/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `it_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+
+[ 2017-06-10T22:54:42+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-06-10T22:54:42+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-06-10T22:54:44+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0148s ]
+SQL: select * from it_privilege where parent_id=0 and is_show=1 [ RunTime:0.0006s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 3 order by id desc [ RunTime:0.0002s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 1 order by id desc [ RunTime:0.0002s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 2 order by id desc [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-06-10T22:54:44+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-06-10T22:54:44+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-06-10T22:54:47+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0151s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 235 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-06-10T22:54:50+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=3 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=3 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-06-10T23:27:42+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 235 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-06-10T23:27:45+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0099s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=14 )  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=14 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-06-10T23:28:48+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0086s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=14 )  [ RunTime:0.0012s ]
+
+[ 2017-06-10T23:29:11+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-10T23:29:11+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-06-10T23:29:14+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0415s ]
+SQL: select * from it_privilege where parent_id=0 and is_show=1 [ RunTime:0.0014s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 3 order by id desc [ RunTime:0.0007s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 1 order by id desc [ RunTime:0.0006s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 2 order by id desc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-06-10T23:29:14+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-06-10T23:29:14+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-06-10T23:29:20+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0384s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 235 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-06-10T23:29:23+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0087s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=14 )  [ RunTime:0.0011s ]
+
+[ 2017-06-10T23:31:14+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=14 )  [ RunTime:0.0008s ]
+
+[ 2017-06-10T23:33:11+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-06-10T23:33:11+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-06-10T23:33:13+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `it_admin` [ RunTime:0.0154s ]
+SQL: select * from it_privilege where parent_id=0 and is_show=1 [ RunTime:0.0004s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 3 order by id desc [ RunTime:0.0004s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 1 order by id desc [ RunTime:0.0004s ]
+SQL: select * from it_privilege where  is_show=1 and parent_id = 2 order by id desc [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-06-10T23:33:13+08:00 ] 127.0.0.1 /Admin/Index/drag.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-06-10T23:33:13+08:00 ] 127.0.0.1 /Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-06-10T23:33:15+08:00 ] 127.0.0.1 /admin/goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 231 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Admin\Controller\GoodsController.class.php 第 237 行.
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `it_goods` WHERE ( is_delete=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (17,1,5,4,6,9,2,7,8,10,18,3,13,14,15,0) ) LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\7fc6295f8400677d09c8af1e531d83f8.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2017-06-10T23:33:18+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0076s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=14 ) ORDER BY b.id  [ RunTime:0.0013s ]
+
+[ 2017-06-10T23:38:13+08:00 ] 127.0.0.1 /Admin/Goods/product/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `it_product` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `it_goods_attr` [ RunTime:0.0083s ]
+SQL: SELECT a.*,b.attr_name FROM it_goods_attr a left join it_attribute as b on a.attr_id = b.id  WHERE ( a.goods_id in ( SELECT a.goods_id FROM it_goods_attr a GROUP BY a.goods_id HAVING COUNT(a.goods_id)>1  ) and a.goods_id=14 ) ORDER BY b.id  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `it_product` WHERE ( goods_id=14 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+NOTIC: [8] Use of undefined constant attr_name - assumed 'attr_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\63a2583dd72542c7099cdea872dd1e6f.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+

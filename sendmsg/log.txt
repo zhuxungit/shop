@@ -1,0 +1,29 @@
+request body = <TemplateSMS>
+                    <to>15262723161</to> 
+                    <appId>8aaf07085c62aa66015c9b59705c13e9</appId>
+                    <templateId>1</templateId>
+                    <datas><data>2345</data><data>5</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8aaf07085c62aa66015c9b59705c13e9/SMS/TemplateSMS?sig=AFC67937495B92C2602D5C811E4E113A
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>111181</statusCode>
+    <statusMsg>【账号】应用不存在</statusMsg>
+</Response>
+
+request body = <TemplateSMS>
+                    <to>15262723161</to> 
+                    <appId>8aaf07085c62aa66015c9b5d4ef013f9</appId>
+                    <templateId>1</templateId>
+                    <datas><data>2345</data><data>5</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8aaf07085c62aa66015c9b59705c13e9/SMS/TemplateSMS?sig=06FD6129CB6648FC1CE80F8A70740ACB
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>000000</statusCode>
+    <TemplateSMS>
+        <smsMessageSid>0d29e0dd39714bf7bd6eb15ac363211f</smsMessageSid>
+        <dateCreated>20170612162353</dateCreated>
+    </TemplateSMS>
+</Response>
+

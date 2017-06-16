@@ -1,0 +1,37 @@
+<div class="block box">
+    <div class="blank"></div>
+    <div id="ur_here">
+        当前位置: <a href="#">首页</a> <code>&gt;</code> 购物流程
+    </div>
+</div>
+
+<div class="blank"></div>
+<div class="blank"></div>
+
+<div class="block">
+    <div class="flowBox" style="margin: 0pt auto 70px;">
+        <h6 style="text-align: center; height: 30px; line-height: 30px;">感谢您在本店购物！您的订单已提交成功，请记住您的订单号: <font style="color: red;">{$Think.get.order_sn}</font>
+        </h6>
+        <table style="border: 1px solid rgb(221, 221, 221); margin: 20px auto;" align="center" bgcolor="#ffffff" border="0" cellpadding="15" cellspacing="0"
+               width="99%">
+            <tbody>
+            <tr>
+                <td align="center" bgcolor="#ffffff">
+                    您选定的配送方式为: <strong>{$Think.get.shipping_type}</strong>，您选定的支付方式为: <strong>{$Think.get.pay_type}</strong>。您的应付款金额为: <strong>￥{$Think.get.order_amount}元</strong>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" bgcolor="#ffffff"><a target="_blank" href="{:U('order/alipay',['order_sn'=>$_GET['order_sn']])}">立即支付</a></td>
+            </tr>
+            <!--<tr>-->
+            <!--<td align="center" bgcolor="#ffffff">银行名称-->
+            <!--收款人信息：全称 ××× ；帐号或地址 ××× ；开户行 ×××。-->
+            <!--注意事项：办理电汇时，请在电汇单“汇款用途”一栏处注明您的订单号。</td>-->
+            <!--</tr>-->
+            </tbody>
+        </table>
+        <p style="text-align: center; margin-bottom: 20px;">您可以 <a href="{:U('index/index')}">返回首页</a> 或去 <a href="#">用户中心</a></p>
+    </div>
+</div>
+

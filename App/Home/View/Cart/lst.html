@@ -1,0 +1,194 @@
+<script src="__JS__/jquery.js"></script>
+<style type="text/css">
+    table {
+        border: 1px solid #dddddd;
+        border-collapse: collapse;
+        width: 99%;
+        margin: auto;
+    }
+
+    td {
+        border: 1px solid #dddddd;
+    }
+
+    #consignee_addr {
+        width: 450px;
+    }
+</style>
+
+
+<div class="block box">
+    <div class="blank"></div>
+    <div id="ur_here">
+        当前位置: <a href="#">首页</a> <code>&gt;</code> 购物流程
+    </div>
+</div>
+<div class="blank"></div>
+
+<div class="blank"></div>
+<div class="block">
+    <div class="flowBox">
+        <h6><span>商品列表</span></h6>
+        <form id="formCart" action="" method="post">
+            <table cellpadding="5" cellspacing="1">
+                <tbody>
+                <tr>
+                    <th>商品名称</th>
+                    <th>属性</th>
+                    <th>市场价</th>
+                    <th>本店价</th>
+                    <th>购买数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+                <foreach name="cartdata" item="v">
+                    <tr>
+                        <td align="center">
+                            <a href="#" target="_blank"><img style="width: 80px; height: 80px;" src="/Public/Uploads/{$v['info']['goods_thumb']}" title="P806"/></a><br/>
+                            <a href="#" target="_blank" class="f6"><?php echo $v['info']['goods_name']?></a>
+                        </td>
+                        <td>{$v['attr']} <br/>
+                        </td>
+                        <td class="market_price" align="center">￥{$v['info']['market_price']}元</td>
+                        <td class="shop_price" align="center">￥<span>{$v['info']['shop_price']}</span>元</td>
+                        <td align="center">
+                            <a href="javascript:void(0)" class="decr"><img src="__IMG__/decr.gif"/></a>
+                            <input name="goods_count" value="{$v['goods_count']}" size="4" class="inputBg" style="text-align: center;"
+                                   type="text"/>
+                            <a href="javascript:" class="incr"><img src="__IMG__/incr.gif"/></a>
+                            <input type="hidden" name="goods_id" value="{$v['goods_id']}"/>
+                            <input type="hidden" name="goods_attr_id" value="{$v['goods_attr_id']}"/>
+                        </td>
+                        <td class="xiaoji_price" align="center">￥<span>{$v['info']['shop_price']*$v['goods_count']}</span>元</td>
+                        <td align="center">
+                            <a href="{:U('Cart/del',array('goods_id'=>$v['goods_id'],'goods_attr_id'=>$v['goods_attr_id']))}" class="f6">删除</a>
+                        </td>
+                    </tr>
+                </foreach>
+                </tbody>
+            </table>
+            <table cellpadding="5" cellspacing="1">
+                <tbody>
+                <tr>
+                    <td>
+                        购物金额小计 ￥<span id="total_price">{$total['total_price']}</span>元，比市场价 ￥2400.00元 节省了 ￥400.00元 (17%)
+                    </td>
+                    <td align="right">
+                        <input value="清空购物车" class="bnt_blue_1" type="button" onclick="clearCart()"/>
+                        <input id="updatecart" name="submit" class="bnt_blue_1" value="更新购物车" type="submit"/>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <input name="step" value="update_cart" type="hidden"/>
+        </form>
+        <table cellpadding="5" cellspacing="0" width="99%">
+            <tbody>
+            <tr>
+                <td><a href="{:U('index/index')}"><img src="__IMG__/continue.gif" alt="continue"/></a></td>
+                <td align="right"><a id="checkout" href="javascript:void(0)"><img src="__IMG__/checkout.gif" alt="checkout"/></a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="blank"></div>
+    <div class="blank5"></div>
+</div>
+
+<script>
+
+    $(function () {
+        $("#checkout").click(function () {
+            window.location.href = "{:U('order/flow')}";
+        })
+    })
+
+    $(function () {
+        //选择增加按钮
+        $('.incr').click(function () {
+            //计算商品单价
+            var shop_price = parseFloat($(this).parents('tr').find('.shop_price span').html());
+            //商品小计价格
+            var xiaoji_price = parseFloat($(this).parents('tr').find('.xiaoji_price span').html());
+            //新的小计价格=原来的小计价格+商品单价
+            var new_xiaoji_price = xiaoji_price + shop_price;
+            //原商品总价
+            var total_price = parseFloat($('#total_price').html());
+            //新的商品总价=原商品总价+商品单价
+            var new_total_price = total_price + shop_price;
+            //原购买数量
+            var goods_count = parseInt($(this).prev(':input').val());
+            //新数量
+            var new_goods_count = goods_count + 1;
+            //获取商品id
+//            _this.parents('td').find(":input[name=goods_id]").val()
+
+            var goods_id = parseInt($(this).parents('td').find(":input[name=goods_id]").val());
+            //获取商品属性
+            var goods_attr_id = $(this).parents('td').find(":input[name=goods_attr_id]").val();
+
+//            alert(goods_attr_id);
+
+            //ajax修改数据库数据
+            var _this = $(this);
+            $.ajax({
+                url: 'update',
+                type: 'post',
+                data: {goods_id: goods_id, goods_attr_id: goods_attr_id},
+                datatype: 'json',
+                success: function (msg) {
+                    //修改后将新数据进行显示-新的小计价格-新的商品总价-新数量
+                    _this.parents('tr').find('.xiaoji_price span').html(new_xiaoji_price);
+                    $('#total_price').html(new_total_price);
+                    _this.prev(':input[type=text]').val(new_goods_count);
+                    console.log(msg);
+                }
+            })
+        })
+    })
+    /**
+     * 清空购物车
+     */
+    function clearCart() {
+        window.location.href = "{:U('cart/clear')}";
+    }
+
+    /**
+     * 通过input修改购物车
+     */
+    $(":input[name=goods_count]").blur(function () {
+        _this = $(this);
+        //获取商品数量
+        var goods_count = parseInt(_this.val());
+        //获取商品id
+        var goods_id = parseInt(_this.parents('td').find(":input[name=goods_id]").val());
+        //获取商品属性
+        var goods_attr_id = _this.parents('td').find(":input[name=goods_attr_id]").val();
+        //计算商品单价
+        var shop_price = parseFloat(_this.parents('tr').find('.shop_price span').html());
+
+        $.ajax({
+            url: 'update',
+            type: 'post',
+            data: {goods_id: goods_id, goods_attr_id: goods_attr_id, goods_count: goods_count},
+            datatype: 'json',
+            success: function (msg) {
+                console.log(msg);
+                msg = JSON.parse(msg);
+                //修改后将新数据进行显示-新的小计价格-新的商品总价-新数量
+                //商品小计价格
+                var count = parseInt(msg.goods_count);
+                var new_xiaoji_price = shop_price*count;
+                _this.parents('tr').find('.xiaoji_price span').html(new_xiaoji_price);
+                //原商品总价
+//                console.log(msg.total_price);
+                $('#total_price').html(msg.total_price);
+
+            }
+        })
+    })
+
+    $('#update_click').click(function () {
+        window.location.reload();
+    })
+</script>

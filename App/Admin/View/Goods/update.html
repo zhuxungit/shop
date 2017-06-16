@@ -1,0 +1,273 @@
+<!-- $Id: goods_info.htm 17126 2010-04-23 10:30:26Z liuhui $ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ECSHOP 管理中心 - 编辑商品 </title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="__CSS__/general.css" rel="stylesheet" type="text/css"/>
+    <link href="__CSS__/main.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" charset="utf-8" src="__JS__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__JS__/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__JS__/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript" src="__JS__/jquery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("select[name=type_id]").change(function () {
+                //获取商品类型id
+                var type_id = $(this).val();
+
+//                alert(type_id);
+
+                //使用ajax提交商品类型id
+                $.ajax({
+                    type: 'get',
+                    url: '<?php echo U("showattr")?>',
+                    data: 'type_id=' + type_id,
+                    dateType: 'html',
+                    success: function (msg) {
+//                        alert(msg);
+                        $('#showattr').html(msg);
+                    }
+                })
+            })
+        })
+
+
+    </script>
+</head>
+<body>
+
+<h1>
+    <span class="action-span"><a href="<?php echo U('lst')?>">商品列表</a></span>
+    <span class="action-span1"><a href="<?php echo U('admin/index/index')?>">ECSHOP 管理中心</a> </span><span id="search_id"
+                                                                                                          class="action-span1"> - 编辑商品 </span>
+    <div style="clear:both"></div>
+</h1>
+
+<!-- start goods form -->
+<div class="tab-div">
+    <!-- tab bar -->
+    <div id="tabbar-div">
+        <p>
+            <span class="tab-front" id="general-tab" onclick="charea('general');">通用信息</span>
+            <span class="tab-back" id="detail-tab" onclick="charea('detail');">详细描述</span>
+            <span class="tab-back" id="mix-tab" onclick="charea('mix');">其他信息</span>
+            <span class="tab-back" id="attr-tab" onclick="charea('attr');">商品属性</span>
+            <span class="tab-back" id="album-tab" onclick="charea('album');">商品相册</span>
+        </p>
+    </div>
+
+    <!-- tab body -->
+    <div id="tabbody-div">
+        <form enctype="multipart/form-data" action="__ACTION__" method="post" name="theForm">
+            <!-- 最大文件限制 -->
+            <input type="hidden" name="MAX_FILE_SIZE" value="2097152"/>
+            <!--修改的商品id-->
+            <input type="hidden" name="id" value="{$goodsdata.id}"/>
+            <!-- 通用信息 -->
+            <table width="90%" id="general-table" align="center">
+                <tr>
+                    <td class="label">商品名称：</td>
+                    <td><input type="text" name="goods_name" value="{$goodsdata.goods_name}" style="float:left" size="30"/></td>
+                </tr>
+                <tr>
+                    <td class="label">
+                        <a href="#" title="点击此处查看提示信息"><img src="__IMG__/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品货号：
+                    </td>
+                    <td><input type="text" name="goods_sn" value="{$goodsdata.goods_sn}" size="20"/><span id="goods_sn_notice"></span><br/>
+                        <span class="notice-span" style="display:block"
+                              id="noticeGoodsSN">如果您不输入商品货号，系统将自动生成一个唯一的货号。</span></td>
+                </tr>
+                <tr>
+                    <td class="label">商品分类：</td>
+                    <td><select name="cat_id">
+                        <option value="0">请选择...</option>
+                        <?php foreach($catData as $v){?>
+                        <option value="<?php echo  $v['id']?>"><?php echo  str_repeat('--',$v['level']).$v['cat_name']?></option>
+                        <?php }?>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">本店售价：</td>
+                    <td><input type="text" name="shop_price" value="{$goodsdata.shop_price}" size="20"/></td>
+                </tr>
+                <tr>
+                    <td class="label">市场售价：</td>
+                    <td><input type="text" name="market_price" value="{$goodsdata.market_price}" size="20"/></td>
+                </tr>
+
+                <tr>
+                    <td class="label">上传商品图片：</td>
+                    <td>
+                        <input type="file" name="goods_img" size="35"/>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- 详细描述 -->
+            <table width="90%" id="detail-table" style="display:none">
+                <tr>
+                    <td><textarea name="goods_desc" id="goods_desc">{$goodsdata.goods_desc}</textarea></td>
+                </tr>
+            </table>
+
+            <!-- 其他信息 -->
+            <table width="90%" id="mix-table" style="display:none" align="center">
+                <tr>
+                    <td class="label"><a href="#" title="点击此处查看提示信息"><img src="__IMG__/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a>
+                        库存数量：
+                    </td>
+
+                    <td><input type="text" name="goods_number" value="{$goodsdata.goods_number}" size="20"/>
+                </tr>
+                <tr>
+                    <td class="label">加入推荐：</td>
+                    <td><input type="checkbox" name="is_best" value="1"/>精品 <input type="checkbox" name="is_new" value="1"/>新品 <input type="checkbox"
+                                                                                                                                      name="is_hot"
+                                                                                                                                      value="1"/>热销
+                    </td>
+                </tr>
+                <tr id="alone_sale_1">
+                    <td class="label" id="alone_sale_2">上架：</td>
+                    <td id="alone_sale_3"><input type="checkbox" name="is_sale" value="1" checked="checked"/>
+                        打勾表示允许销售，否则不允许销售。
+                    </td>
+                </tr>
+            </table>
+
+            <!-- 商品属性 -->
+            <table width="90%" id="attr-table" style="display:none" align="center">
+                <tr>
+                    <td>商品类型：</td>
+                    <td><select name="type_id">
+                        <option value="0">所有商品类型</option>
+                        <?php foreach($typedata as $value){?>
+                        <option value="<?php echo $value['id']?>"><?php echo $value['type_name']?></option>
+                        <?php }?>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <div id="showattr"></div>
+                    </td>
+                </tr>
+
+            </table>
+
+            <!-- 商品相册 -->
+            <table width="90%" id="album-table" style="display:none" align="center">
+                <if condition="$goodsdata.album neq ''">
+                    <tr>
+                        <td width="100%">
+                            <table class="table_a" border="1" width="100%">
+                                <tbody>
+                                <tr style="font-weight: bold;">
+                                    <td>序号</td>
+                                    <td>大图</td>
+                                    <td>缩略图</td>
+                                    <td align="center">操作</td>
+                                </tr>
+                                <foreach name="uploadpicsdata" item="pic">
+                                    <tr class="picstr">
+                                        <td>{$pic.id}</td>
+                                        <td><img src="/Public/Uploads/{$pic.album_ori}" height="60" width="60"></td>
+                                        <td><img src="/Public/Uploads/{$pic.album_thumb}" height="40" width="40"></td>
+                                        <td><a href="javascript:void(0);" class="del" data-id="{$pic.id}">删除</a></td>
+                                    </tr>
+                                </foreach>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </if>
+
+
+                <tr>
+                    <td><a href="javascript:void(0)" class="add">[+]</a>上传文件：<input type="file" name="photo[]"/></td>
+
+                </tr>
+            </table>
+
+            <div class="button-div">
+                <input type="submit" value=" 确定 " class="button"/>
+                <input type="reset" value=" 重置 " class="button"/>
+            </div>
+            <input type="hidden" name="act" value="insert"/>
+        </form>
+    </div>
+</div>
+<!-- end goods form -->
+<script>
+    /**
+     *引入编辑器
+     */
+    UE.getEditor('goods_desc', {
+        "initialFrameWidth": "60%",
+        "initialFrameHeight": 200
+    })
+
+    /**
+     * 添加以及减少图片相册文件域
+     */
+    $(function () {
+        $('.add').live('click', function () {
+            $(this).parents('table').append("<tr><td><a href='javascript:void(0)' class='release'>[-]</a>上传文件：<input type='file' name='photo[]'/></td></tr>");
+        })
+
+        $('.release').live('click', function () {
+            $(this).parents('tr').remove();
+        })
+
+    })
+
+    function copyown(o) {
+        //取出当前行
+        var current_tr = $(o).parent().parent();
+        if ($(o).html() == '[+]') {
+            //自我复制
+            var new_tr = current_tr.clone();
+            //克隆出的新行，将里面的a标签的内容，变成[-]
+            new_tr.find('a').html('[-]');
+            //把新行放到当前行的后面
+            current_tr.after(new_tr);
+        } else {
+            //自我删除当前行
+            current_tr.remove();
+        }
+    }
+
+    /**
+     * 切换商品各选项卡
+     * @param a
+     */
+    function charea(a) {
+        var spans = ['general', 'detail', 'mix', 'attr', 'album'];
+        for (i = 0; i < 5; i++) {
+            var o = document.getElementById(spans[i] + '-tab');
+            var tb = document.getElementById(spans[i] + '-table');
+            o.className = o.id == a + '-tab' ? 'tab-front' : 'tab-back';
+            tb.style.display = tb.id == a + '-table' ? 'block' : 'none';
+        }
+    }
+    /**
+     * 删除相册图片
+     */
+    $(function () {
+        $('.del').click(function () {
+            id = $(this).attr('data-id');
+            _this = $(this);
+            $.post('__CONTROLLER__/delpics', {'id': id}, function (data) {
+                if (data.status == 1) {
+                    _this.parents('.picstr').remove();
+                }
+            }, 'json')
+        })
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,2638 @@
+[ 2017-06-07T21:18:01+08:00 ] 127.0.0.1 /Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: admin_id G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 9 行.
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-06-07T21:24:49+08:00 ] 127.0.0.1 /Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: admin_id G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 9 行.
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-06-07T21:24:59+08:00 ] 127.0.0.1 /Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-06-07T21:25:01+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0091s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0022s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: admin_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 9 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-06-07T21:25:33+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.1141s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0084s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-06-07T21:26:00+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0074s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0006s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-06-07T21:26:38+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0093s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0007s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-06-07T21:27:04+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 9 行.
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-06-07T21:27:14+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-06-07T21:27:16+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0052s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0007s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-06-07T21:27:18+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0039s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0006s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-06-07T21:27:23+08:00 ] 127.0.0.1 /Home/index/detail/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0101s ]
+SQL: UPDATE `it_goods` SET `goods_click`=goods_click+1 WHERE ( id=5 ) [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_goods_album` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=5 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0064s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0007s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.0051s ]
+SQL: SELECT a.attr_name,a.attr_type,b.* FROM `it_attribute` a left join it_goods_attr as b on b.attr_id = a.id   WHERE ( b.goods_id=5 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2017-06-07T21:27:26+08:00 ] 127.0.0.1 /Home/Cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `it_cart` WHERE ( goods_id=5 and goods_attr_id='35,36' and user_id=1  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `it_cart` SET `goods_count`=goods_count+1 WHERE (  goods_id=5 and goods_attr_id='35,36' and user_id = 1 ) [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-06-07T21:27:28+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0089s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0010s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0010s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 3 and b.id in (27,28) GROUP BY b.goods_id [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2017-06-07T21:27:42+08:00 ] 127.0.0.1 /Home/Cart/del/goods_id/3/goods_attr_id/27%2C28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0392s ]
+SQL: DELETE FROM `it_cart` WHERE ( goods_id=3 and goods_attr_id='27,28' and user_id=1  ) [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-06-07T21:29:57+08:00 ] 127.0.0.1 /Home/Cart/del/goods_id/5/goods_attr_id/35%2C36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0446s ]
+SQL: DELETE FROM `it_cart` WHERE ( goods_id=5 and goods_attr_id='35,36' and user_id=1  ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-06-07T21:30:13+08:00 ] 127.0.0.1 /Home/cart/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0396s ]
+SQL: UPDATE `it_cart` SET `goods_count`=goods_count+1 WHERE ( goods_id=5 and goods_attr_id and '35,36' and user_id = 1 ) [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2017-06-07T21:30:19+08:00 ] 127.0.0.1 /Home/cart/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0214s ]
+SQL: UPDATE `it_cart` SET `goods_count`=goods_count+1 WHERE ( goods_id=5 and goods_attr_id and '35,36' and user_id = 1 ) [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-06-07T21:31:36+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-06-07T21:31:40+08:00 ] 127.0.0.1 /Home/index/detail/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0087s ]
+SQL: UPDATE `it_goods` SET `goods_click`=goods_click+1 WHERE ( id=5 ) [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods_album` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=5 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.0054s ]
+SQL: SELECT a.attr_name,a.attr_type,b.* FROM `it_attribute` a left join it_goods_attr as b on b.attr_id = a.id   WHERE ( b.goods_id=5 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-06-07T21:31:43+08:00 ] 127.0.0.1 /Home/Cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `it_cart` WHERE ( goods_id=5 and goods_attr_id='35,36' and user_id=1  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `it_cart` (`goods_id`,`goods_attr_id`,`goods_count`,`user_id`) VALUES ('5','35,36','1','1') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-06-07T21:31:45+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0046s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-06-07T21:31:46+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-06-07T21:31:55+08:00 ] 127.0.0.1 /Home/Cart/del/goods_id/5/goods_attr_id/35%2C36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0274s ]
+SQL: DELETE FROM `it_cart` WHERE ( goods_id=5 and goods_attr_id='35,36' and user_id=1  ) [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-06-07T21:32:01+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-06-07T21:34:12+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 9 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-06-07T21:34:18+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 9 行.
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-06-07T21:34:25+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-06-07T21:35:34+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0083s ]
+
+[ 2017-06-07T21:36:57+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-06-07T21:36:59+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-06-07T21:37:01+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-06-07T21:37:03+08:00 ] 127.0.0.1 /Home/index/detail/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0095s ]
+SQL: UPDATE `it_goods` SET `goods_click`=goods_click+1 WHERE ( id=5 ) [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_goods_album` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=5 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.0048s ]
+SQL: SELECT a.attr_name,a.attr_type,b.* FROM `it_attribute` a left join it_goods_attr as b on b.attr_id = a.id   WHERE ( b.goods_id=5 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-06-07T21:37:06+08:00 ] 127.0.0.1 /Home/Cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `it_cart` WHERE ( goods_id=5 and goods_attr_id='35,36' and user_id=1  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `it_cart` (`goods_id`,`goods_attr_id`,`goods_count`,`user_id`) VALUES ('5','35,36','1','1') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-06-07T21:37:08+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0115s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-06-07T21:37:09+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0085s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0013s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-06-07T21:37:12+08:00 ] 127.0.0.1 /Home/Cart/del/goods_id/5/goods_attr_id/35%2C36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0170s ]
+SQL: DELETE FROM `it_cart` WHERE ( goods_id=5 and goods_attr_id='35,36' and user_id=1  ) [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-06-07T21:37:14+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-06-07T21:38:20+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-06-07T21:38:21+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-06-07T21:59:05+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 9 行.
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-06-07T21:59:12+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-06-07T21:59:14+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-06-07T21:59:16+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-06-07T21:59:36+08:00 ] 127.0.0.1 /Home/Index/category/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (5,4,6,9) )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-06-07T22:03:41+08:00 ] 127.0.0.1 /Home/Index/category/cat_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (7,8,10) )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-06-07T22:03:47+08:00 ] 127.0.0.1 /Home/Index/category/cat_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (13,14,15) )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-06-07T22:08:58+08:00 ] 127.0.0.1 /Home/Index/category/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (5,4,6,9) )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 9 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-06-07T22:09:11+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 9 行.
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-06-07T22:09:22+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-06-07T22:09:24+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-06-07T22:09:25+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0565s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2017-06-07T22:09:28+08:00 ] 127.0.0.1 /Home/Index/category/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_delete=0 and cat_id in (5,4,6,9) )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 296 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\workstudy\shshop\App\Runtime\Cache\Home\7d4be2ee1d0d4c72691b3cd87a811f53.php 第 298 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-06-07T22:51:12+08:00 ] 127.0.0.1 /home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 9 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-06-07T22:51:24+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: user_id G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 9 行.
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\16def5a3b8987acfc0c038a02e815a10.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-07T22:51:33+08:00 ] 127.0.0.1 /home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `it_user` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `it_user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-06-07T22:51:35+08:00 ] 127.0.0.1 /Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_category` ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_best=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_new=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `it_goods` WHERE ( is_hot=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-06-07T22:52:09+08:00 ] 127.0.0.1 /Home/order/finish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: catedata G:\workstudy\shshop\App\Runtime\Cache\Home\f86140f60a3a5d518135306a832ff3ca.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\f86140f60a3a5d518135306a832ff3ca.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\f86140f60a3a5d518135306a832ff3ca.php 第 55 行.
+NOTIC: [8] Undefined index: order_sn G:\workstudy\shshop\App\Runtime\Cache\Home\f86140f60a3a5d518135306a832ff3ca.php 第 92 行.
+NOTIC: [8] Undefined index: shipping_name G:\workstudy\shshop\App\Runtime\Cache\Home\f86140f60a3a5d518135306a832ff3ca.php 第 96 行.
+NOTIC: [8] Undefined index: pay_name G:\workstudy\shshop\App\Runtime\Cache\Home\f86140f60a3a5d518135306a832ff3ca.php 第 96 行.
+NOTIC: [8] Undefined variable: order_amount G:\workstudy\shshop\App\Runtime\Cache\Home\f86140f60a3a5d518135306a832ff3ca.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-06-07T22:52:15+08:00 ] 127.0.0.1 /Home/order/writeaddress
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\3b5ab0552d37550668c1c1081311f012.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\3b5ab0552d37550668c1c1081311f012.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\3b5ab0552d37550668c1c1081311f012.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\3b5ab0552d37550668c1c1081311f012.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\3b5ab0552d37550668c1c1081311f012.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\3b5ab0552d37550668c1c1081311f012.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-06-07T22:53:02+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0046s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+
+[ 2017-06-07T22:53:40+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 120 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 150 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 156 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 164 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2017-06-07T22:53:51+08:00 ] 127.0.0.1 /Home/index/detail/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0721s ]
+SQL: UPDATE `it_goods` SET `goods_click`=goods_click+1 WHERE ( id=5 ) [ RunTime:0.0009s ]
+SQL: SELECT * FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_goods_album` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `it_goods_album` WHERE ( goods_id=5 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_attribute` [ RunTime:0.0054s ]
+SQL: SELECT a.attr_name,a.attr_type,b.* FROM `it_attribute` a left join it_goods_attr as b on b.attr_id = a.id   WHERE ( b.goods_id=5 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\56563fb70bfd45c5e738bfc14042f337.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-06-07T22:53:54+08:00 ] 127.0.0.1 /Home/Cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `it_cart` WHERE ( goods_id=5 and goods_attr_id='35,36' and user_id=1  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `it_cart` (`goods_id`,`goods_attr_id`,`goods_count`,`user_id`) VALUES ('5','35,36','1','1') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-06-07T22:53:56+08:00 ] 127.0.0.1 /Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0009s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\11ec2eeb007f90e1b0caef78c8546e6f.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-06-07T22:54:01+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0088s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 120 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 150 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 156 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 164 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-06-07T22:56:29+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0104s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+
+[ 2017-06-07T22:57:29+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0156s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0014s ]
+
+[ 2017-06-07T23:33:15+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0044s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: cartdata G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 120 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 150 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 156 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 164 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-06-07T23:37:13+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0045s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined index: attrs G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 126 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 150 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 156 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 164 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-06-07T23:37:38+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0041s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined index: attrs G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 127 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 138 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 151 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 157 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 165 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-06-07T23:37:51+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0040s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 55 行.
+NOTIC: [8] Undefined index: attrs G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 126 行.
+NOTIC: [8] Undefined variable: total G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 150 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 156 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 164 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-06-07T23:38:48+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0039s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: attrs G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 126 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 150 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 156 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 164 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-06-07T23:39:11+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0045s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 150 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 156 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 164 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 175 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-06-07T23:41:53+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0051s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id = 1 )  [ RunTime:0.0002s ]
+
+[ 2017-06-07T23:47:36+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0040s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+ERR: syntax error, unexpected '}', expecting end of file
+
+[ 2017-06-07T23:48:50+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0043s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 148 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 154 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 162 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 172 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 173 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-06-07T23:50:22+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0041s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: consignee_name G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 148 行.
+NOTIC: [8] Undefined index: consignee_address G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 154 行.
+NOTIC: [8] Undefined index: consignee_mobile G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 162 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 172 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 173 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-06-07T23:50:48+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0039s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `it_address` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 172 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 173 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-06-07T23:51:30+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0039s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0006s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: consignee_name G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 148 行.
+NOTIC: [8] Undefined index: consignee_address G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 154 行.
+NOTIC: [8] Undefined index: consignee_mobile G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 162 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 172 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 173 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-06-07T23:51:47+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0043s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 172 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 173 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-06-07T23:52:07+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0045s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-07T23:52:22+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0047s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Home/View/Public/head.html): failed to open stream: No such file or directory G:\workstudy\shshop\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 172 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 173 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-06-07T23:57:56+08:00 ] 127.0.0.1 /Home/order/flow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `it_category` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `it_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `it_cart` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `it_goods` [ RunTime:0.0045s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `it_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `it_address` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+SQL: SELECT * FROM `it_cart` WHERE ( user_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `goods_name`,`market_price`,`shop_price`,`goods_thumb` FROM `it_goods` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL:  select b.goods_id,GROUP_CONCAT(CONCAT(a.attr_name,':',b.attr_value) SEPARATOR '</br>') as goodsattr from it_attribute as a left join it_goods_attr as b on b.attr_id = a.id where b.goods_id = 5 and b.id in (35,36) GROUP BY b.goods_id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined index: cat_id G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 28 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 172 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 173 行.
+NOTIC: [8] Undefined variable: info G:\workstudy\shshop\App\Runtime\Cache\Home\373df9ccd7b6b48efd040c34a205c191.php 第 174 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-06-07T23:57:58+08:00 ] 127.0.0.1 /Home/Order/done.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-06-07T23:59:56+08:00 ] 127.0.0.1 /Home/Order/done.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+

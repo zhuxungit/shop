@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    #开启重写引擎
+    RewriteEngine On
+    #添加重写条件 请求的文件名不是一个目录，也不是一个条件，就执行重写
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [L,E=PATH_INFO:$1]
+</IfModule>

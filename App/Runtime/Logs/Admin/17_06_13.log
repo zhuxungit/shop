@@ -1,0 +1,321 @@
+[ 2017-06-13T20:33:53+08:00 ] 127.0.0.1 /admin/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-06-13T20:34:31+08:00 ] 127.0.0.1 /admin/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-06-13T21:15:42+08:00 ] 127.0.0.1 /admin/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: orderdata G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-06-13T21:15:51+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shshop.it_order' doesn't exist
+
+[ 2017-06-13T21:15:53+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shshop.it_order' doesn't exist
+
+[ 2017-06-13T21:16:40+08:00 ] 127.0.0.1 /admin/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: orderdata G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-06-13T21:16:55+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shshop.it_order' doesn't exist
+
+[ 2017-06-13T21:17:44+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shshop.it_order' doesn't exist
+
+[ 2017-06-13T21:18:16+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shshop.it_order' doesn't exist
+
+[ 2017-06-13T21:19:39+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shshop.it_order' doesn't exist
+
+[ 2017-06-13T21:19:41+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shshop.it_order' doesn't exist
+
+[ 2017-06-13T21:23:50+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `it_test_order` [ RunTime:0.0087s ]
+ERR: Think\Model:left方法不存在！
+
+[ 2017-06-13T21:24:19+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `it_test_order` [ RunTime:0.0064s ]
+SQL: SELECT a.id,a.order_number,b.user_name,c.goods_name FROM it_test_order a LEFT JOIN it_test_user as b on a.user_id = b.id LEFT JOIN it_test_goods as c on c.id = a.goods_id  WHERE (b.user_name LIKE '%zhuxun%' OR b.user_name LIKE '%zhuxun' OR b.user_name LIKE 'zhuxun%')  [ RunTime:0.0118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-06-13T21:24:32+08:00 ] 127.0.0.1 /admin/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: orderdata G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-06-13T21:24:37+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `it_test_order` [ RunTime:0.0277s ]
+SQL: SELECT a.id,a.order_number,b.user_name,c.goods_name FROM it_test_order a LEFT JOIN it_test_user as b on a.user_id = b.id LEFT JOIN it_test_goods as c on c.id = a.goods_id  WHERE (b.user_name LIKE '%%' OR b.user_name LIKE '%' OR b.user_name LIKE '%')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-06-13T21:24:46+08:00 ] 127.0.0.1 /Admin/test/getOrderByName.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `it_test_order` [ RunTime:0.0054s ]
+SQL: SELECT a.id,a.order_number,b.user_name,c.goods_name FROM it_test_order a LEFT JOIN it_test_user as b on a.user_id = b.id LEFT JOIN it_test_goods as c on c.id = a.goods_id  WHERE (b.user_name LIKE '%%' OR b.user_name LIKE '%' OR b.user_name LIKE '%')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] Illegal string offset 'id' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 21 行.
+NOTIC: [2] Illegal string offset 'user_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 22 行.
+NOTIC: [2] Illegal string offset 'goods_name' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 23 行.
+NOTIC: [2] Illegal string offset 'order_number' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 24 行.
+NOTIC: [2] Illegal string offset 'order_create_time' G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+NOTIC: [2] date() expects parameter 2 to be integer, string given G:\workstudy\shshop\App\Runtime\Cache\Admin\1022475efd880f294b35bba3c3e0d163.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-06-13T23:27:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-06-13T23:28:00+08:00 ] 127.0.0.1 /Admin/Login/autoCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
